@@ -14,6 +14,11 @@ module.exports = {
                 ...theme('color'),
                 'button': '#3CB4AB',
             }),
+            textColor: theme => theme('colors'),
+            textColor: {
+                'primary': '#3CB4ACFF',
+            },
+
             width: {
                 '4/7': '53.5%',
                 '84': '23rem',
@@ -23,13 +28,14 @@ module.exports = {
                 '100': '40vw',
 
             },
-            margin:{
+            margin: {
                 '84': '21.5rem',
-                '68':'17rem',
+                '68': '17rem',
             },
             inset: {
                 '84': '22rem',
-                '100':'38rem',
+                '100': '38rem',
+                '150': '54rem',
             },
             borderWidth: {
                 '0.25': '0.2px',
