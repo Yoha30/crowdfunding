@@ -34,11 +34,16 @@ module.exports = {
             },
             inset: {
                 '18': '4.5rem',
+                '82': '20.5rem',
                 '84': '22rem',
+                '96': '26rem',
                 '98': '29rem',
+                '99': '32rem',
                 '100': '38rem',
-                '120':'49rem',
+                '110': '46rem',
+                '120': '49rem',
                 '150': '54rem',
+                '175': '62rem',
                 '200': '76rem',
             },
             borderWidth: {
@@ -53,8 +58,12 @@ module.exports = {
                 'si': '400px',
                 'sp': '420px',
                 'max': '452px',
-
+                'bl': '1350px',
+                'dl': '1910px',
                 // => @media (min-width: 1280px) { ... }
+            },
+            backgroundSize: {
+                '100': '100%',
             },
         },
     },

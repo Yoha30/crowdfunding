@@ -611,10 +611,6 @@ video {
 	margin-top: 2.5rem;
 	margin-bottom: 2.5rem;
 }
-.my-5 {
-	margin-top: 1.25rem;
-	margin-bottom: 1.25rem;
-}
 .mb-4 {
 	margin-bottom: 1rem;
 }
@@ -751,20 +747,14 @@ video {
 .p-5 {
 	padding: 1.25rem;
 }
-.p-8 {
-	padding: 2rem;
-}
-.p-3 {
-	padding: 0.75rem;
-}
 .p-4 {
 	padding: 1rem;
 }
-.pt-12 {
-	padding-top: 3rem;
+.pt-9 {
+	padding-top: 2.25rem;
 }
-.pl-20 {
-	padding-left: 5rem;
+.pl-8 {
+	padding-left: 2rem;
 }
 .pr-32 {
 	padding-right: 8rem;
@@ -777,9 +767,6 @@ video {
 }
 .pl-1 {
 	padding-left: 0.25rem;
-}
-.pt-9 {
-	padding-top: 2.25rem;
 }
 .pb-5 {
 	padding-bottom: 1.25rem;
@@ -805,26 +792,8 @@ video {
 .pb-8 {
 	padding-bottom: 2rem;
 }
-.pl-5 {
-	padding-left: 1.25rem;
-}
-.pl-3 {
-	padding-left: 0.75rem;
-}
-.pl-4 {
-	padding-left: 1rem;
-}
-.pb-4 {
-	padding-bottom: 1rem;
-}
 .pb-6 {
 	padding-bottom: 1.5rem;
-}
-.pt-10 {
-	padding-top: 2.5rem;
-}
-.pl-8 {
-	padding-left: 2rem;
 }
 .text-center {
 	text-align: center;
@@ -841,13 +810,13 @@ video {
 	font-size: 1.25rem;
 	line-height: 1.75rem;
 }
-.text-base {
-	font-size: 1rem;
-	line-height: 1.5rem;
-}
 .text-lg {
 	font-size: 1.125rem;
 	line-height: 1.75rem;
+}
+.text-base {
+	font-size: 1rem;
+	line-height: 1.5rem;
 }
 .font-extrabold {
 	font-weight: 800;
@@ -965,6 +934,10 @@ video {
 		background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
 	}
 
+	.sm\:bg-desktop {
+		background-image: url('images/image-hero-desktop.jpg');
+	}
+
 	.sm\:p-14 {
 		padding: 3.5rem;
 	}
@@ -975,6 +948,10 @@ video {
 
 	.sm\:p-8 {
 		padding: 2rem;
+	}
+
+	.sm\:pt-12 {
+		padding-top: 3rem;
 	}
 
 	.sm\:pl-40 {
@@ -1017,16 +994,12 @@ video {
 		padding-top: 0px;
 	}
 
-	.sm\:pl-0 {
-		padding-left: 0px;
-	}
-
 	.sm\:pb-8 {
 		padding-bottom: 2rem;
 	}
 
-	.sm\:pt-12 {
-		padding-top: 3rem;
+	.sm\:pl-0 {
+		padding-left: 0px;
 	}
 
 	.sm\:text-left {
@@ -1047,16 +1020,14 @@ video {
 		font-weight: 700;
 	}
 }
-@media (min-width: 768px) {
+@media (min-width: 1536px) {
 
-	.md\:bg-desktop {
-		background-image: url('images/image-hero-desktop.jpg');
+	.\32xl\:right-20 {
+		right: 5rem;
 	}
-}
-@media (min-width: 1024px) {
 
-	.lg\:w-screen {
-		width: 100vw;
+	.\32xl\:bg-100 {
+		background-size: 100%;
 	}
 }
 @media (min-width: 350px) {
@@ -1083,21 +1054,97 @@ video {
 }
 @media (min-width: 420px) {
 
-	.sp\:right-18 {
-		right: 4.5rem;
-	}
-
 	.sp\:right-20 {
 		right: 5rem;
 	}
 }
 @media (min-width: 452px) {
 
-	.max\:right-80 {
+	.max\:right-72 {
+		right: 18rem;
+	}
+
+	.max\:right-82 {
+		right: 20.5rem;
+	}
+}
+@media (min-width: 1350px) {
+
+	.bl\:right-80 {
 		right: 20rem;
 	}
 
-	.max\:right-84 {
+	.bl\:right-84 {
 		right: 22rem;
+	}
+}
+@media (min-width: 1910px) {
+
+	.dl\:right-98 {
+		right: 29rem;
+	}
+
+	.dl\:top-96 {
+		top: 26rem;
+	}
+
+	.dl\:right-96 {
+		right: 26rem;
+	}
+
+	.dl\:top-110 {
+		top: 46rem;
+	}
+
+	.dl\:top-175 {
+		top: 62rem;
+	}
+
+	.dl\:right-99 {
+		right: 32rem;
+	}
+
+	.dl\:w-\[43\%\] {
+		width: 43%;
+	}
+
+	.dl\:p-12 {
+		padding: 3rem;
+	}
+
+	.dl\:p-9 {
+		padding: 2.25rem;
+	}
+
+	.dl\:p-7 {
+		padding: 1.75rem;
+	}
+
+	.dl\:pl-10 {
+		padding-left: 2.5rem;
+	}
+
+	.dl\:pr-16 {
+		padding-right: 4rem;
+	}
+
+	.dl\:pl-14 {
+		padding-left: 3.5rem;
+	}
+
+	.dl\:pr-52 {
+		padding-right: 13rem;
+	}
+
+	.dl\:pr-60 {
+		padding-right: 15rem;
+	}
+
+	.dl\:pl-52 {
+		padding-left: 13rem;
+	}
+
+	.dl\:pl-56 {
+		padding-left: 14rem;
 	}
 }
