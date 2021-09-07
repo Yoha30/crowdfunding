@@ -33,13 +33,29 @@ module.exports = {
                 '68': '17rem',
             },
             inset: {
+                '18': '4.5rem',
                 '84': '22rem',
+                '98': '29rem',
                 '100': '38rem',
+                '120':'49rem',
                 '150': '54rem',
+                '200': '76rem',
             },
             borderWidth: {
                 '0.25': '0.2px',
-            }
+            },
+            screens: {
+                'xs': '350px',
+                // => @media (min-width: 640px) { ... }
+
+                'st': '370px',
+                // => @media (min-width: 1024px) { ... }
+                'si': '400px',
+                'sp': '420px',
+                'max': '452px',
+
+                // => @media (min-width: 1280px) { ... }
+            },
         },
     },
     variants: {
