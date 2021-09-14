@@ -13,15 +13,23 @@ module.exports = {
             backgroundColor: theme => ({
                 ...theme('color'),
                 'button': '#3CB4AB',
+                'secondary': '#147B74FF',
+
             }),
             textColor: theme => theme('colors'),
             textColor: {
                 'primary': '#3CB4ACFF',
+                'darkCyan': '#147B74FF',
             },
-
+            fontWeight: {
+                'greatbold': '750',
+            },
             width: {
                 '4/7': '53.5%',
+                '42': '10.7rem',
                 '84': '23rem',
+                '97':'37rem',
+                '98': '39rem',
                 '100': '201vw',
             },
             height: {
@@ -36,9 +44,11 @@ module.exports = {
                 '18': '4.5rem',
                 '82': '20.5rem',
                 '84': '22rem',
+                '86': '24rem',
                 '96': '26rem',
                 '98': '29rem',
                 '99': '32rem',
+                '99.5': '34.5rem',
                 '100': '38rem',
                 '110': '46rem',
                 '120': '49rem',
@@ -49,6 +59,14 @@ module.exports = {
             borderWidth: {
                 '0.25': '0.2px',
             },
+            borderColor: {
+                'radio': '#3CB4ACFF',
+                'check': '#147B74FF',
+            },
+            divideColor :{
+              'darkgreen':'#147B74FF',
+            },
+
             screens: {
                 'xs': '350px',
                 // => @media (min-width: 640px) { ... }
