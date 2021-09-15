@@ -27,14 +27,17 @@ module.exports = {
             width: {
                 '4/7': '53.5%',
                 '42': '10.7rem',
+                '68': '17rem',
+                "75": '19rem',
+                '78': '21rem',
                 '84': '23rem',
-                '97':'37rem',
+                '97': '37rem',
                 '98': '39rem',
                 '100': '201vw',
             },
             height: {
                 '100': '40vw',
-
+                '89': '22rem',
             },
             margin: {
                 '84': '21.5rem',
@@ -45,12 +48,18 @@ module.exports = {
                 '82': '20.5rem',
                 '84': '22rem',
                 '86': '24rem',
+                '85': '23rem',
+                '88': '37.5rem',
                 '96': '26rem',
                 '98': '29rem',
+                '98.5': '24.75rem',
                 '99': '32rem',
                 '99.5': '34.5rem',
+                '99.6': '35.25rem',
+                '99.7': '36.75rem',
                 '100': '38rem',
                 '110': '46rem',
+                '115':'47.5rem',
                 '120': '49rem',
                 '150': '54rem',
                 '175': '62rem',
@@ -63,8 +72,8 @@ module.exports = {
                 'radio': '#3CB4ACFF',
                 'check': '#147B74FF',
             },
-            divideColor :{
-              'darkgreen':'#147B74FF',
+            divideColor: {
+                'darkgreen': '#147B74FF',
             },
 
             screens: {

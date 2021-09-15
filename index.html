@@ -40,7 +40,7 @@
     <div>
         <div class="bg-white rounded-xl absolute right-4 xs:right-9 st:right-11 si:right-16  sp:right-20  max:right-72  bl:right-80 dl:right-99.5  top-98 sm:top-72 dl:top-96   h-80 sm:h-72 w-72 sm:w-4/7 dl:w-[43%]">
             <div class="absolute -top-7  right-28 xs:right-28 max:right-82 bl:right-84 dl:right-86 ">
-                <svg width="56" height="56" xmlns="http://www.w3.org/2000/svg">
+                <svg width="56" height="56" xmlns="http://www.w3.org/2000/svg" id="logo">
                     <g fill="none" fill-rule="evenodd">
                         <circle fill="#000" cx="28" cy="28" r="28"/>
                         <g fill-rule="nonzero">
@@ -59,7 +59,8 @@
                     strain.</p>
             </div>
             <div class="flex flex-row  justify-between pl-10 pb-0 sm:pb-10">
-                <button class="rounded-full bg-button hover:bg-secondary h-12  w-96 sm:w-40 text-white font-bold cursor-pointer" onclick="backThisProject ()">
+                <button class="rounded-full bg-button hover:bg-secondary h-12  w-96 sm:w-40 text-white font-bold cursor-pointer"
+                        onclick="backThisProject ()">
                     Back this
                     project
                 </button>
@@ -108,7 +109,8 @@
         </div>
     </div>
 
-    <div class="bg-white  w-72 sm:w-4/7 dl:w-[43%] rounded-xl absolute  right-4 xs:right-9 st:right-11 si:right-16  sp:right-20  max:right-72  bl:right-80 dl:right-99.5  2xl:right-20  top-200 sm:top-150 dl:top-175  p-5 sm:p-10  " id="about-this">
+    <div class="bg-white  w-72 sm:w-4/7 dl:w-[43%] rounded-xl absolute  right-4 xs:right-9 st:right-11 si:right-16  sp:right-20  max:right-72  bl:right-80 dl:right-99.5  2xl:right-20  top-200 sm:top-150 dl:top-175  p-5 sm:p-10  "
+         id="about-this">
         <div>
             <h3 class="font-bold text-xl pb-8">About this project</h3>
 
@@ -165,7 +167,7 @@
                 thank you. You’ll be added
                 to our Backer member list. Shipping is included.</p>
             <div class="flex flex-col sm:flex-row justify-between">
-                <h1 class="text-gray-500 font-bold text-3xl pb-5 sm:pb-0 pl-2 sm:-pl0 "> 0<small
+                <h1 class="text-gray-500 font-bold text-3xl pb-5 sm:pb-0 pl-2 sm:pl-0 "> 0<small
                         class="text-base font-thin"> left</small></h1>
                 <button class="bg-gray-500 rounded-full text-white font-bold w-40 h-12 "> Out of Stock</button>
             </div>
@@ -173,46 +175,52 @@
     </div>
 </div>
 <!-- Selection modal start -->
-<div class="hidden" id="back-project">
-    <div class="bg-white p-10 rounded-xl absolute right-4 xs:right-9 st:right-11 si:right-16  sp:right-20  max:right-72  bl:right-80 dl:right-99.5  top-98 sm:top-72 dl:top-60  shadow-xl w-72 sm:w-4/7 dl:w-[43%]">
+<div class="" id="back-project">
+    <div class="bg-white  p-5 sm:p-10 pt-10 rounded-xl absolute right-4 xs:right-3 st:right-5 si:right-10  sp:right-20  max:right-72  bl:right-80 dl:right-99.5  top-64 sm:top-72 dl:top-60  shadow-xl  w-72 xs:w-78 sm:w-4/7 bl:w-[54%] dl:w-[43%]">
         <div class="flex flex-row justify-between">
             <h1 class="font-greatbold text-xl pb-4 ">Back this project</h1>
-            <svg width="15" height="15" xmlns="http://www.w3.org/2000/svg" class="cursor-pointer" onclick="closeModal ()">
+            <svg width="15" height="15" xmlns="http://www.w3.org/2000/svg" class="cursor-pointer"
+                 onclick="closeModal ()">
                 <path d="M11.314 0l2.828 2.828L9.9 7.071l4.243 4.243-2.828 2.828L7.07 9.9l-4.243 4.243L0 11.314 4.242 7.07 0 2.828 2.828 0l4.243 4.242L11.314 0z"
                       fill="#000" fill-rule="evenodd"/>
             </svg>
         </div>
-        <p class="text-gray-500 ">Want to support us in bringing Mastercraft Bamboo Monitor Riser out in the world?</p>
+        <p class="text-gray-500 w-64 xs:w-75 bl:w-full ">Want to support us in bringing Mastercraft Bamboo Monitor Riser out in the world?</p>
         <div class="shadow border border-gray-300 rounded  p-4 sm:p-8 w-[96%] my-10 ">
             <div class="flex flex-row">
                 <input type="radio" class="inline-block pl-0 sm:pl-14  form-radio h-7 w-7 ">
-                <p class="text-black hover:text-primary cursor-pointer font-bold  pb-4 inline-block pl-0 sm:pl-6  ">
+                <p class="text-black hover:text-primary cursor-pointer font-bold  pb-4 inline-block pl-3 sm:pl-6 w-60  ">
                     Pledge with no reward</p>
             </div>
-            <p class="text-gray-500 pl-0 sm:pl-12 ">Choose to support us without a reward if you simply believe in our
+            <p class="text-gray-500 pl-0 sm:pl-12 bl:w-98 ">Choose to support us without a reward if you simply believe in our
                 project. As a backer,
                 you will be signed up to receive product updates via email.</p>
         </div>
 
-        <div class="shadow border border-gray-300 rounded  p-4 sm:p-8 w-[96%] my-10 ">
+        <div class="shadow border border-gray-300 rounded  p-4 sm:p-8  w-[98%] sm:w-[96%] my-10  ">
             <div class="flex flex-row">
-                <input type="radio" class="inline-block pl-0 sm:pl-14  form-radio h-7 w-7 ">
-                <h1 class="text-black hover:text-primary cursor-pointer font-bold  pb-4 inline-block pl-0 sm:pl-6">
-                    Bamboo Stand</h1>
-                <h1 class="text-primary cursor-pointer font-bold  pb-4 inline-block pl-0 sm:pl-6 "> Pledge
-                    $25 or more</h1>
-                <h1 class="font-bold text-xl pb-5 sm:pb-0 w-64   justify-end flex"> 101 <small
-                        class="text-gray-500 font-normal pl-1">left</small></h1>
+                <input type="radio" class="inline-block pl-0 sm:pl-14  form-radio h-7 w-7 my-3 sm:my-0 ">
+                <div class="flex flex-col sm:flex-row">
+                    <h1 class="text-black hover:text-primary cursor-pointer font-bold  pb-2 sm:pb-4 inline-block pl-3 sm:pl-6 w-auto sm:w-40">
+                        Bamboo Stand</h1>
+                    <h1 class="text-primary cursor-pointer font-bold  pb-4 inline-block pl-3 sm:pl-6 w-auto sm:w-52">
+                        Pledge
+                        $25 or more</h1>
+                </div>
             </div>
-            <p class="text-gray-500 pl-0 sm:pl-12 w-98 "> You get an ergonomic stand made of natural bamboo.
+            <p class="text-gray-500 pl-0 sm:pl-12   w-52 xs:w-68 bl:w-98 "> You get an ergonomic stand made of
+                natural bamboo.
                 You've helped us launch our promotional campaign, and
                 you’ll be added to a special Backer member list.</p>
-            <hr class="my-10 hidden">
+            <h1 class="font-bold text-xl pb-0 w-64 pt-5 sm:pt-0  static sm:absolute  <!--bottom-88--> top-85 -right-24 dl:-right-8  ">
+                101 <small
+                    class="text-gray-500 font-normal">left</small></h1>
+            <hr class=" hidden my-5 sm:my-10 ">
             <!-- Selected pledge start -->
-            <div class="flex flex-row justify-between hidden">
-                <p class="text-gray-500 items-center pt-2 "> Enter your pledge</p>
-                <div class=" mx-5">
-                    <button class="hover:border-check rounded-full w-24 h-12  border font-bold "><p
+            <div class="  <!--flex-->  hidden flex-col sm:flex-row justify-between  ">
+                <p class="text-gray-500 pt-0 sm:pt-2 my-5 sm:my-0 flex justify-center "> Enter your pledge</p>
+                <div class=" flex flex-row justify-center ">
+                    <button class="hover:border-check rounded-full w-24 h-12  border font-bold  mx-2 sm:mx-4 "><p
                             class="inline-block pr-2 text-gray-500 ">$</p>
                         <p class="inline-block border-r border-check pr-1">25</p></button>
                     <button class="bg-button hover:bg-secondary  text-white rounded-full w-24 h-12 font-bold">
@@ -224,23 +232,29 @@
         <!-- Selected pledge end -->
         <div class="shadow border border-gray-300 rounded  p-4 sm:p-8 w-[96%] my-10 ">
             <div class="flex flex-row">
-                <input type="radio" class="inline-block pl-0 sm:pl-14  form-radio h-7 w-7 ">
-                <h1 class="text-black hover:text-primary cursor-pointer font-bold  pb-4 inline-block pl-0 sm:pl-6">
-                    Black Edition Stand</h1>
-                <h1 class="text-primary cursor-pointer font-bold  pb-4 inline-block pl-0 sm:pl-6  ">Pledge $75 or
-                    more</h1>
-                <h1 class="font-bold text-xl pb-5 sm:pb-0 flex w-56 pr-2 justify-end  "> 64<small
-                        class="text-gray-500 font-normal pl-1"> left</small></h1>
+                <input type="radio" class="inline-block pl-0 sm:pl-14  form-radio h-7 w-7 my-3 sm:my-0 ">
+                <div class="flex flex-col sm:flex-row">
+                    <h1 class="text-black hover:text-primary cursor-pointer font-bold  pb-2 sm:pb-4 inline-block pl-3 sm:pl-6  w-40 xs:w-52">
+                        Black Edition Stand</h1>
+                    <h1 class="text-primary cursor-pointer font-bold  pb-4 inline-block pl-3 sm:pl-6 w-auto sm:w-52 ">
+                        Pledge $75 or
+                        more</h1>
+                </div>
+
             </div>
-            <p class="text-gray-500 pl-0 sm:pl-12 w-97 "> You get a Black Special Edition computer stand and a personal
+            <p class="text-gray-500 pl-0 sm:pl-12  w-56 xs:w-64 bl:w-98 "> You get a Black Special Edition computer stand and a
+                personal
                 thank you. You’ll be added to our Backer
                 member list. Shipping is included.</p>
-            <hr class="my-10 hidden">
+            <h1 class="font-bold text-xl  pt-5 sm:pt-0 w-56 static sm:absolute top-99.6 -right-20 dl:-right-3 ">
+                64<small
+                    class="text-gray-500 font-normal"> left</small></h1>
+            <hr class=" hidden my-5 sm:my-10">
             <!-- Selected pledge start -->
-            <div class="flex flex-row justify-between hidden">
-                <p class="text-gray-500 items-center pt-2 "> Enter your pledge</p>
-                <div class="mx-5">
-                    <button class="hover:border-check rounded-full w-24 h-12  border font-bold "><p
+            <div class=" <!--flex--> hidden flex-col sm:flex-row justify-between ">
+                <p class="text-gray-500  pt-0 sm:pt-2 flex  justify-center my-5 sm:my-0 "> Enter your pledge</p>
+                <div class="flex flex-row justify-center">
+                    <button class="hover:border-check rounded-full w-24 h-12  border font-bold mx-2 sm:mx-4 "><p
                             class="inline-block pr-2 text-gray-500 ">$ </p>
                         <p class="inline-block border-r border-check pr-1">75</p></button>
                     <button class="bg-button hover:bg-secondary  text-white rounded-full w-24 h-12 font-bold">
@@ -252,29 +266,32 @@
         <!-- Selected pledge end -->
         <div class="shadow border border-gray-300 rounded  p-4 sm:p-8 w-[96%] my-10 opacity-50 ">
             <div class="flex flex-row">
-                <input type="radio" class="inline-block pl-0 sm:pl-14  form-radio h-7 w-7 ">
-                <h1 class="text-black hover:text-primary cursor-pointer font-bold  pb-4 inline-block pl-0 sm:pl-6">
+                <input type="radio" class="inline-block pl-0 sm:pl-14  form-radio h-7 w-7 my-3 sm:my-0 ">
+                <div class="flex flex-col sm:flex-row">
+                <h1 class="text-black cursor-pointer font-bold  pb-2 sm:pb-4 inline-block pl-3 sm:pl-6 w-36 xs:w-52 bl:w-72">
                     Mahogany Special Edition</h1>
-                <h1 class="text-primary cursor-pointer font-bold  pb-4 inline-block pl-0 sm:pl-6  "> Pledge $200 or
+                <h1 class="text-primary cursor-pointer font-bold  pb-4 inline-block pl-3 sm:pl-6  w-auto sm:w-52">
+                    Pledge $200 or
                     more</h1>
-                <h1 class="font-bold text-xl pb-5 sm:pb-0 flex w-40 pr-2 justify-end  "> 0 <small
-                        class="text-gray-500 font-normal pl-1">left</small></h1>
+                    </div>
             </div>
-            <p class="text-gray-500 pl-0 sm:pl-12 w-98 ">You get two Special Edition Mahogany stands, a Backer T-Shirt,
+            <p class="text-gray-500 pl-0 sm:pl-12 w-52 bl:w-98 ">You get two Special Edition Mahogany stands, a Backer T-Shirt,
                 and a personal thank you. You’ll be added
                 to our Backer member list. Shipping is included.</p>
-
-            <hr class="my-10 hidden">
+            <h1 class="font-bold text-xl pb-5 sm:pb-0 pt-5 sm:pt-0 flex w-40 pr-2 static sm:absolute top-115 -right-6 dl:right-12 "> 0 <small
+                    class="text-gray-500 font-normal pl-1">left</small></h1>
+            <hr class=" my-5 sm:my-10 hidden ">
             <!-- Selected pledge  start -->
-            <div class="flex flex-row justify-between hidden ">
-                <p class="text-gray-500 items-center pt-2 "> Enter your pledge</p>
-                <div>
+            <div class="<!--flex--> hidden flex-col sm:flex-row justify-between  ">
+                <p class="text-gray-500  pt-0 sm:pt-2 flex  justify-center my-5 sm:my-0 "> Enter your pledge</p>
+                        <div class="flex flex-row justify-center">
                     <button class="hover:border-check rounded-full w-24 h-12  border font-bold "><p
                             class="inline-block pr-2 text-gray-500 ">$ </p>
                         <p class="inline-block border-r border-check pr-1">200</p></button>
                     <button class="bg-button hover:bg-secondary  text-white rounded-full w-24 h-12 font-bold">
                         Continue
                     </button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -291,7 +308,7 @@
         </div>
     </div>
 </div>
-    <!-- Success modal end -->
+<!-- Success modal end -->
 </body>
 <script src="crowd.js"></script>
 </html>
