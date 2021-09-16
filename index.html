@@ -197,27 +197,27 @@
                 you will be signed up to receive product updates via email.</p>
         </div>
 
-        <div class="shadow border border-gray-300 rounded  p-4 sm:p-8  w-[98%] sm:w-[96%] my-10  ">
-            <div class="flex flex-row">
-                <input type="radio" class="inline-block pl-0 sm:pl-14  form-radio h-7 w-7 my-3 sm:my-0 ">
+        <div class="shadow border border-gray-300 rounded  p-4 sm:p-8  w-[98%] sm:w-[96%] my-10  " >
+            <div class="flex flex-row" onclick="checked()" >
+                <input type="radio" name="bamboo" class="inline-block pl-0 sm:pl-14  form-radio h-7 w-7 my-3 sm:my-0 " >
                 <div class="flex flex-col sm:flex-row">
-                    <h1 class="text-black hover:text-primary cursor-pointer font-bold  pb-2 sm:pb-4 inline-block pl-3 sm:pl-6 w-auto sm:w-40">
+                    <h1 class="text-black hover:text-primary cursor-pointer font-bold  pb-2 sm:pb-4 inline-block pl-3 sm:pl-6 w-auto sm:w-40" id="main-text" >
                         Bamboo Stand</h1>
                     <h1 class="text-primary cursor-pointer font-bold  pb-4 inline-block pl-3 sm:pl-6 w-auto sm:w-52">
                         Pledge
                         $25 or more</h1>
                 </div>
             </div>
-            <p class="text-gray-500 pl-0 sm:pl-12   w-52 xs:w-68 bl:w-98 "> You get an ergonomic stand made of
+            <p class="text-gray-500 pl-0 sm:pl-12  w-52 xs:w-68 bl:w-98 "> You get an ergonomic stand made of
                 natural bamboo.
                 You've helped us launch our promotional campaign, and
                 you’ll be added to a special Backer member list.</p>
             <h1 class="font-bold text-xl pb-0 w-64 pt-5 sm:pt-0  static sm:absolute  <!--bottom-88--> top-85 -right-24 dl:-right-8  ">
                 101 <small
                     class="text-gray-500 font-normal">left</small></h1>
-            <hr class=" hidden my-5 sm:my-10 ">
+            <hr class=" hidden my-5 sm:my-10 " id="horizontal-line">
             <!-- Selected pledge start -->
-            <div class="  <!--flex-->  hidden flex-col sm:flex-row justify-between  ">
+            <div class="  <!--flex-->  hidden flex-col sm:flex-row justify-between  " id="selcted-section">
                 <p class="text-gray-500 pt-0 sm:pt-2 my-5 sm:my-0 flex justify-center "> Enter your pledge</p>
                 <div class=" flex flex-row justify-center ">
                     <button class="hover:border-check rounded-full w-24 h-12  border font-bold  mx-2 sm:mx-4 "><p
@@ -231,7 +231,7 @@
         </div>
         <!-- Selected pledge end -->
         <div class="shadow border border-gray-300 rounded  p-4 sm:p-8 w-[96%] my-10 ">
-            <div class="flex flex-row">
+            <div class="flex flex-row" onclick="blackedition()">
                 <input type="radio" class="inline-block pl-0 sm:pl-14  form-radio h-7 w-7 my-3 sm:my-0 ">
                 <div class="flex flex-col sm:flex-row">
                     <h1 class="text-black hover:text-primary cursor-pointer font-bold  pb-2 sm:pb-4 inline-block pl-3 sm:pl-6  w-40 xs:w-52">
@@ -246,12 +246,12 @@
                 personal
                 thank you. You’ll be added to our Backer
                 member list. Shipping is included.</p>
-            <h1 class="font-bold text-xl  pt-5 sm:pt-0 w-56 static sm:absolute top-99.6 -right-20 dl:-right-3 ">
+            <h1 class="font-bold text-xl  pt-5 sm:pt-0 w-56 static sm:absolute bottom-85 <!--bottom-105--> -right-20 dl:-right-3 " id="black-edition">
                 64<small
                     class="text-gray-500 font-normal"> left</small></h1>
-            <hr class=" hidden my-5 sm:my-10">
+            <hr class=" hidden my-5 sm:my-10" id="second-line">
             <!-- Selected pledge start -->
-            <div class=" <!--flex--> hidden flex-col sm:flex-row justify-between ">
+            <div class=" <!--flex--> hidden flex-col sm:flex-row justify-between " id="second-section">
                 <p class="text-gray-500  pt-0 sm:pt-2 flex  justify-center my-5 sm:my-0 "> Enter your pledge</p>
                 <div class="flex flex-row justify-center">
                     <button class="hover:border-check rounded-full w-24 h-12  border font-bold mx-2 sm:mx-4 "><p
@@ -268,45 +268,45 @@
             <div class="flex flex-row">
                 <input type="radio" class="inline-block pl-0 sm:pl-14  form-radio h-7 w-7 my-3 sm:my-0 ">
                 <div class="flex flex-col sm:flex-row">
-                <h1 class="text-black cursor-pointer font-bold  pb-2 sm:pb-4 inline-block pl-3 sm:pl-6 w-36 xs:w-52 bl:w-72">
-                    Mahogany Special Edition</h1>
-                <h1 class="text-primary cursor-pointer font-bold  pb-4 inline-block pl-3 sm:pl-6  w-auto sm:w-52">
-                    Pledge $200 or
-                    more</h1>
-                    </div>
+                    <h1 class="text-black cursor-pointer font-bold  pb-2 sm:pb-4 inline-block pl-3 sm:pl-6 w-36 xs:w-52 bl:w-72">
+                        Mahogany Special Edition</h1>
+                    <h1 class="text-primary cursor-pointer font-bold  pb-4 inline-block pl-3 sm:pl-6  w-auto sm:w-52">
+                        Pledge $200 or
+                        more</h1>
+                </div>
             </div>
             <p class="text-gray-500 pl-0 sm:pl-12 w-52 bl:w-98 ">You get two Special Edition Mahogany stands, a Backer T-Shirt,
                 and a personal thank you. You’ll be added
                 to our Backer member list. Shipping is included.</p>
-            <h1 class="font-bold text-xl pb-5 sm:pb-0 pt-5 sm:pt-0 flex w-40 pr-2 static sm:absolute top-115 -right-6 dl:right-12 "> 0 <small
+            <h1 class="font-bold text-xl pb-5 sm:pb-0 pt-5 sm:pt-0 flex w-40 pr-2 static sm:absolute bottom-44 -right-6 dl:right-12 "> 0 <small
                     class="text-gray-500 font-normal pl-1">left</small></h1>
             <hr class=" my-5 sm:my-10 hidden ">
             <!-- Selected pledge  start -->
             <div class="<!--flex--> hidden flex-col sm:flex-row justify-between  ">
                 <p class="text-gray-500  pt-0 sm:pt-2 flex  justify-center my-5 sm:my-0 "> Enter your pledge</p>
-                        <div class="flex flex-row justify-center">
+                <div class="flex flex-row justify-center">
                     <button class="hover:border-check rounded-full w-24 h-12  border font-bold "><p
                             class="inline-block pr-2 text-gray-500 ">$ </p>
                         <p class="inline-block border-r border-check pr-1">200</p></button>
                     <button class="bg-button hover:bg-secondary  text-white rounded-full w-24 h-12 font-bold">
                         Continue
                     </button>
-                    </div>
                 </div>
             </div>
         </div>
-        <!-- Selected pledge end -->
-
-        <!-- Selection modal end -->
-
-        <!-- Success modal start -->
-        <div class="hidden">
-            Thanks for your support!
-            Your pledge brings us one step closer to sharing Mastercraft Bamboo Monitor Riser worldwide. You will get
-            an email once our campaign is completed.
-            Got it!
-        </div>
     </div>
+    <!-- Selected pledge end -->
+
+    <!-- Selection modal end -->
+
+    <!-- Success modal start -->
+    <div class="hidden">
+        Thanks for your support!
+        Your pledge brings us one step closer to sharing Mastercraft Bamboo Monitor Riser worldwide. You will get
+        an email once our campaign is completed.
+        Got it!
+    </div>
+</div>
 </div>
 <!-- Success modal end -->
 </body>

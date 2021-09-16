@@ -6,6 +6,12 @@ let backProject = document.getElementById('back-project');
 let backgroundImage = document.getElementById('background-image');
 let aboutSection = document.getElementById('about-this');
 let logo = document.getElementById('logo');
+let line = document.querySelector('#horizontal-line');
+let firstSelcted = document.getElementById('selcted-section');
+let inputOne = document.querySelector('input[name="bamboo"]:checked');
+let secondLine = document.getElementById('second-line');
+let secondSection = document.getElementById('second-section');
+let position = document.getElementById('black-edition');
 
 function bookMark() {
     if (greenBookmark.classList.contains('hidden')) {
@@ -37,4 +43,18 @@ function closeModal() {
         aboutSection.classList.remove('opacity-50');
         logo.classList.remove('hidden');
     }
+}
+
+function checked() {
+    line.classList.remove('hidden');
+    firstSelcted.classList.remove('hidden');
+    firstSelcted.classList.add('flex');
+}
+
+function blackedition() {
+    secondLine.classList.remove('hidden');
+    secondSection.classList.remove('hidden');
+    secondSection.classList.add('flex');
+    position.classList.add('bottom-105');
+    position.classList.remove('bottom-85');
 }
