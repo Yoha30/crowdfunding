@@ -70,3 +70,8 @@ function complete() {
     analysis.classList.add('opacity-60');
 
 }
+function backOriginal (){
+    completed.classList.add('hidden');
+    backgroundImage.classList.remove('opacity-50');
+    aboutSection.classList.remove('opacity-50');
+}
