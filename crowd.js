@@ -12,6 +12,10 @@ let inputOne = document.querySelector('input[name="bamboo"]:checked');
 let secondLine = document.getElementById('second-line');
 let secondSection = document.getElementById('second-section');
 let position = document.getElementById('black-edition');
+let button = document.getElementById('button');
+let completed = document.getElementById('complete');
+let mainSection = document.getElementById('main-section');
+let analysis = document.getElementById('analysis-section');
 
 function bookMark() {
     if (greenBookmark.classList.contains('hidden')) {
@@ -57,4 +61,12 @@ function blackedition() {
     secondSection.classList.add('flex');
     position.classList.add('bottom-105');
     position.classList.remove('bottom-85');
+}
+
+function complete() {
+    completed.classList.remove('hidden');
+    backProject.classList.add('hidden');
+    mainSection.classList.add('opacity-80');
+    analysis.classList.add('opacity-60');
+
 }

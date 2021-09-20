@@ -38,7 +38,8 @@
 </div>
 <div>
     <div>
-        <div class="bg-white rounded-xl absolute right-4 xs:right-9 st:right-11 si:right-16  sp:right-20  max:right-72  bl:right-80 dl:right-99.5  top-98 sm:top-72 dl:top-96   h-80 sm:h-72 w-72 sm:w-4/7 dl:w-[43%]">
+        <div id="main-section"
+             class=" <!--opacity-80--> bg-white rounded-xl absolute right-4 xs:right-9 st:right-11 si:right-16  sp:right-20  max:right-72  bl:right-80 dl:right-99.5  top-98 sm:top-72 dl:top-96   h-80 sm:h-72 w-72 sm:w-4/7 dl:w-[43%]">
             <div class="absolute -top-7  right-28 xs:right-28 max:right-82 bl:right-84 dl:right-86 ">
                 <svg width="56" height="56" xmlns="http://www.w3.org/2000/svg" id="logo">
                     <g fill="none" fill-rule="evenodd">
@@ -84,7 +85,8 @@
             </div>
         </div>
     </div>
-    <div class="bg-white  p-6 dl:p-7  w-72 sm:w-4/7 dl:w-[43%] pl-0 sm:pl-10  absolute right-4 xs:right-9 st:right-11 si:right-16  sp:right-20  max:right-72  bl:right-80 dl:right-99.5 my-6 sm:my-0  top-120 xs:top-none sm:top-100 dl:top-110  h-96 sm:h-56  rounded-xl ">
+    <div id="analysis-section"
+         class=" bg-white  p-6 dl:p-7  w-72 sm:w-4/7 dl:w-[43%] pl-0 sm:pl-10  absolute right-4 xs:right-9 st:right-11 si:right-16  sp:right-20  max:right-72  bl:right-80 dl:right-99.5 my-6 sm:my-0  top-120 xs:top-none sm:top-100 dl:top-110  h-96 sm:h-56  rounded-xl ">
         <div class="flex flex-col sm:flex-row p-10 pt-6  divide-gray-500 divide-opacity-20  divide-y sm:divide-y-0   divide-x-0  sm:divide-x text-center sm:text-left   ">
             <div class=" pb-5 pr-0 sm:pr-8 w-56 dl:w-68  ">
                 <h1 class="font-bold text-3xl "> $89,914 </h1>
@@ -226,7 +228,8 @@
                     <button class="hover:border-check rounded-full w-24 h-12  border font-bold  mx-2 sm:mx-4 "><p
                             class="inline-block pr-2 text-gray-500 ">$</p>
                         <p class="inline-block border-r border-check pr-1">25</p></button>
-                    <button class="bg-button hover:bg-secondary  text-white rounded-full w-24 h-12 font-bold">
+                    <button class="bg-button hover:bg-secondary  text-white rounded-full w-24 h-12 font-bold"
+                            id="button" onclick="complete()">
                         Continue
                     </button>
                 </div>
@@ -302,17 +305,29 @@
             </div>
         </div>
     </div>
-    <!-- Selected pledge end -->
+</div>
 
-    <!-- Selection modal end -->
+<!-- Selected pledge end -->
 
-    <!-- Success modal start -->
-    <div class="hidden">
-        Thanks for your support!
-        Your pledge brings us one step closer to sharing Mastercraft Bamboo Monitor Riser worldwide. You will get
-        an email once our campaign is completed.
-        Got it!
+<!-- Selection modal end -->
+
+<!-- Success modal start -->
+<div class=" hidden bg-white p-3 sm:p-12 rounded-xl absolute right-4 xs:right-3 st:right-5 si:right-10  sp:right-20  max:right-72  bl:right-98 dl:right-108 top-96 sm:top-72 dl:top-100  shadow-xl  w-72 xs:w-78 sm:w-4/7 bl:w-[35%] dl:w-[30%]"
+     id="complete">
+    <div class="flex flex-col ">
+        <svg width="64" height="64" xmlns="http://www.w3.org/2000/svg" class="mx-auto mt-5">
+            <g fill="none" fill-rule="evenodd">
+                <circle fill="#3CB3AB" cx="32" cy="32" r="32"/>
+                <path stroke="#FFF" stroke-width="5" d="M20 31.86L28.093 40 44 24"/>
+            </g>
+        </svg>
+        <h1 class="font-extrabold text-base xs:text-xl flex justify-center p-6"> Thanks for your support!</h1>
     </div>
+    <p class="text-center w-68 xs:w-80 sm:w-[83%] mx-auto pb-8 ">
+        Your pledge brings us one step closer to sharing Mastercraft Bamboo Monitor Riser worldwide. You will get
+        an email once our campaign is completed.</p>
+    <button class="bg-button hover:bg-secondary  text-white rounded-full w-28 h-12 font-bold mx-20 xs:mx-24 bl:mx-36  dl:mx-44 mb-5 sm:mb-10   ">
+        <a href="#"> Got it!</a></button>
 </div>
 </div>
 <!-- Success modal end -->

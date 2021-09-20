@@ -619,8 +619,8 @@ video {
 .-right-6 {
 	right: -1.5rem;
 }
-.bottom-105 {
-	bottom: 31rem;
+.top-96 {
+	top: 26rem;
 }
 .mx-5 {
 	margin-left: 1.25rem;
@@ -650,6 +650,14 @@ video {
 	margin-left: 0.5rem;
 	margin-right: 0.5rem;
 }
+.mx-auto {
+	margin-left: auto;
+	margin-right: auto;
+}
+.mx-20 {
+	margin-left: 5rem;
+	margin-right: 5rem;
+}
 .mb-4 {
 	margin-bottom: 1rem;
 }
@@ -658,6 +666,12 @@ video {
 }
 .mr-2 {
 	margin-right: 0.5rem;
+}
+.mt-5 {
+	margin-top: 1.25rem;
+}
+.mb-5 {
+	margin-bottom: 1.25rem;
 }
 .inline-block {
 	display: inline-block;
@@ -736,6 +750,9 @@ video {
 }
 .w-36 {
 	width: 9rem;
+}
+.w-28 {
+	width: 7rem;
 }
 .cursor-pointer {
 	cursor: pointer;
@@ -842,6 +859,9 @@ video {
 }
 .p-4 {
 	padding: 1rem;
+}
+.p-3 {
+	padding: 0.75rem;
 }
 .pt-9 {
 	padding-top: 2.25rem;
@@ -1035,6 +1055,10 @@ video {
 		margin-right: 2rem;
 	}
 
+	.sm\:mb-10 {
+		margin-bottom: 2.5rem;
+	}
+
 	.sm\:inline-block {
 		display: inline-block;
 	}
@@ -1075,6 +1099,10 @@ video {
 		width: 13rem;
 	}
 
+	.sm\:w-\[83\%\] {
+		width: 83%;
+	}
+
 	.sm\:flex-row {
 		flex-direction: row;
 	}
@@ -1110,6 +1138,10 @@ video {
 
 	.sm\:p-8 {
 		padding: 2rem;
+	}
+
+	.sm\:p-12 {
+		padding: 3rem;
 	}
 
 	.sm\:pt-12 {
@@ -1226,6 +1258,11 @@ video {
 		right: 0.75rem;
 	}
 
+	.xs\:mx-24 {
+		margin-left: 6rem;
+		margin-right: 6rem;
+	}
+
 	.xs\:w-78 {
 		width: 21rem;
 	}
@@ -1244,6 +1281,15 @@ video {
 
 	.xs\:w-64 {
 		width: 16rem;
+	}
+
+	.xs\:w-80 {
+		width: 20rem;
+	}
+
+	.xs\:text-xl {
+		font-size: 1.25rem;
+		line-height: 1.75rem;
 	}
 }
 @media (min-width: 370px) {
@@ -1292,6 +1338,15 @@ video {
 		right: 22rem;
 	}
 
+	.bl\:right-98 {
+		right: 29rem;
+	}
+
+	.bl\:mx-36 {
+		margin-left: 9rem;
+		margin-right: 9rem;
+	}
+
 	.bl\:w-\[54\%\] {
 		width: 54%;
 	}
@@ -1306,6 +1361,10 @@ video {
 
 	.bl\:w-72 {
 		width: 18rem;
+	}
+
+	.bl\:w-\[35\%\] {
+		width: 35%;
 	}
 }
 @media (min-width: 1910px) {
@@ -1350,12 +1409,29 @@ video {
 		right: 3rem;
 	}
 
+	.dl\:right-108 {
+		right: 41rem;
+	}
+
+	.dl\:top-100 {
+		top: 38rem;
+	}
+
+	.dl\:mx-44 {
+		margin-left: 11rem;
+		margin-right: 11rem;
+	}
+
 	.dl\:w-\[43\%\] {
 		width: 43%;
 	}
 
 	.dl\:w-68 {
 		width: 17rem;
+	}
+
+	.dl\:w-\[30\%\] {
+		width: 30%;
 	}
 
 	.dl\:p-7 {
