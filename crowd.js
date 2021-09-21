@@ -66,12 +66,14 @@ function blackedition() {
 function complete() {
     completed.classList.remove('hidden');
     backProject.classList.add('hidden');
-    mainSection.classList.add('opacity-80');
-    analysis.classList.add('opacity-60');
+    mainSection.classList.add('opacity-50');
+    analysis.classList.add('opacity-50');
 
 }
-function backOriginal (){
+function backOrignal (){
     completed.classList.add('hidden');
     backgroundImage.classList.remove('opacity-50');
     aboutSection.classList.remove('opacity-50');
+    mainSection.classList.remove('opacity-50');
+    analysis.classList.remove('opacity-50');
 }
