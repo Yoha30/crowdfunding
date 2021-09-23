@@ -8,7 +8,6 @@ let aboutSection = document.getElementById('about-this');
 let logo = document.getElementById('logo');
 let line = document.querySelector('#horizontal-line');
 let firstSelcted = document.getElementById('selcted-section');
-let inputOne = document.querySelector('input[name="bamboo"]:checked');
 let secondLine = document.getElementById('second-line');
 let secondSection = document.getElementById('second-section');
 let position = document.getElementById('black-edition');
@@ -16,7 +15,9 @@ let button = document.getElementById('button');
 let completed = document.getElementById('complete');
 let mainSection = document.getElementById('main-section');
 let analysis = document.getElementById('analysis-section');
-
+let menu = document.getElementById('menu');
+let closeMenu = document.getElementById('close-menu');
+let list = document.getElementById('list');
 function bookMark() {
     if (greenBookmark.classList.contains('hidden')) {
         grayBookmark.classList.add('hidden');
@@ -59,8 +60,8 @@ function blackedition() {
     secondLine.classList.remove('hidden');
     secondSection.classList.remove('hidden');
     secondSection.classList.add('flex');
-    position.classList.add('bottom-105');
-    position.classList.remove('bottom-85');
+    position.classList.add('bottom-106');
+    position.classList.remove('bottom-87');
 }
 
 function complete() {
@@ -68,6 +69,7 @@ function complete() {
     backProject.classList.add('hidden');
     mainSection.classList.add('opacity-50');
     analysis.classList.add('opacity-50');
+    logo.classList.remove('hidden');
 
 }
 function backOrignal (){
@@ -76,4 +78,18 @@ function backOrignal (){
     aboutSection.classList.remove('opacity-50');
     mainSection.classList.remove('opacity-50');
     analysis.classList.remove('opacity-50');
+    logo.classList.remove('hidden');
+}
+function mobileMenu(){
+    if (list.classList.contains('hidden')){
+        list.classList.remove('hidden');
+        list.classList.remove('pr-32');
+        menu.classList.add('hidden');
+        closeMenu.classList.remove('hidden');
+    }else if (menu.classList.contains('hidden')){
+        list.classList.add('hidden');
+        closeMenu.classList.add('hidden');
+        menu.classList.remove('hidden');
+
+    }
 }
