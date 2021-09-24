@@ -18,6 +18,9 @@ let analysis = document.getElementById('analysis-section');
 let menu = document.getElementById('menu');
 let closeMenu = document.getElementById('close-menu');
 let list = document.getElementById('list');
+let selectBamboo = document.getElementById('select-bamboo');
+let bamboo = document.getElementById('bamboo-stand');
+let edition = document.getElementById('black');
 function bookMark() {
     if (greenBookmark.classList.contains('hidden')) {
         grayBookmark.classList.add('hidden');
@@ -72,7 +75,8 @@ function complete() {
     logo.classList.remove('hidden');
 
 }
-function backOrignal (){
+
+function backOrignal() {
     completed.classList.add('hidden');
     backgroundImage.classList.remove('opacity-50');
     aboutSection.classList.remove('opacity-50');
@@ -80,16 +84,28 @@ function backOrignal (){
     analysis.classList.remove('opacity-50');
     logo.classList.remove('hidden');
 }
-function mobileMenu(){
-    if (list.classList.contains('hidden')){
+
+function mobileMenu() {
+    if (list.classList.contains('hidden')) {
         list.classList.remove('hidden');
         list.classList.remove('pr-32');
         menu.classList.add('hidden');
         closeMenu.classList.remove('hidden');
-    }else if (menu.classList.contains('hidden')){
+    } else if (menu.classList.contains('hidden')) {
         list.classList.add('hidden');
         closeMenu.classList.add('hidden');
         menu.classList.remove('hidden');
 
     }
+}
+
+function rewardClick() {
+    backThisProject();
+    bamboo.checked = true;
+    checked();
+}
+function editionReward() {
+    backThisProject();
+    edition.checked = true;
+    blackedition();
 }
